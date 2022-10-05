@@ -5,6 +5,9 @@ $breakpoint-tablet-landscape: 801px;
 $breakpoint-laptop: 1025px;
 $breakpoint-desktop: 1281px;
 
+$main-color: #44ffd2;
+$site-background-color: #303633;
+
 * {
   box-sizing: border-box;
 }
@@ -18,6 +21,8 @@ body {
   position: relative;
   margin: 0;
   padding: 3rem;
+  background: $site-background-color;
+  color: white;
 }
 
 .container {
@@ -28,11 +33,18 @@ body {
 
 nav {
   a {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    color: white;
+    margin-right: 1rem;
+    &, &:hover, &:focus, &:active {
+      text-decoration: none;
+      color: inherit;
+    }
   }
 }
 h1 {
   font-size: 5rem;
+  color: $main-color;
 }
 p {
   font-size: 2.5rem;
