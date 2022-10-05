@@ -9,13 +9,34 @@ $breakpoint-desktop: 1281px;
   box-sizing: border-box;
 }
 
+html {
+  font-family: Helvetica;
+}
+
 body {
   min-height: 100vh;
   position: relative;
   margin: 0;
-  padding-top: 1rem;
+  padding: 3rem;
 }
 
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  a {
+    font-size: 2rem;
+  }
+}
+h1 {
+  font-size: 5rem;
+}
+p {
+  font-size: 2.5rem;
+}
 footer {
   position: absolute;
   bottom: 0;
