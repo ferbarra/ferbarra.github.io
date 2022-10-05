@@ -1,3 +1,10 @@
+// This style sheet follows a mobile first approach
+$breakpoint-mobile-landscape: 480px;
+$breakpoint-tablet-portrait: 600px;
+$breakpoint-tablet-landscape: 801px;
+$breakpoint-laptop: 1025px;
+$breakpoint-desktop: 1281px;
+
 * {
   box-sizing: border-box;
 }
