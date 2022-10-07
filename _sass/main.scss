@@ -54,10 +54,79 @@ footer {
   a {
     display: inline-block;
     color: white;
-    font-size: 5rem !important;
+    font-size: 5rem;
     margin: 2rem 2rem;
     &:hover {
       color: $main-color;
+    }
+  }
+}
+
+@media only screen and (min-width: $breakpoint-tablet-portrait) {
+  .container {
+    max-width: 90%;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  nav {
+    a {
+      font-size: 2rem;
+    }
+  }
+  footer {
+    a {
+      font-size: 3rem;
+      margin: 1.5rem 1.5rem;
+    }
+  }
+}
+
+@media only screen and (min-width: $breakpoint-laptop) {
+  .container {
+    max-width: 80%;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  nav {
+    a {
+      font-size: 1.5rem;
+    }
+  }
+  footer {
+    a {
+      font-size: 2rem;
+      margin: 1rem 1rem;
+    }
+  }
+}
+
+@media only screen and (min-width: $breakpoint-desktop) {
+  .container {
+    max-width: 70%;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  nav {
+    a {
+      font-size: 1.5rem;
+    }
+  }
+  footer {
+    a {
+      font-size: 1.5rem;
+      margin: 1rem 1rem;
     }
   }
 }
