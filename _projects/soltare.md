@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: project
 name: Soltare
 image: /assets/images/soltare_thumbnail.width-500.jpg
 ---
