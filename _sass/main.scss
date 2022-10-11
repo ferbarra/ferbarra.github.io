@@ -7,6 +7,7 @@ $breakpoint-desktop: 1281px;
 
 $main-color: #44ffd2;
 $site-background-color: #303633;
+$project-card-background-color: #272929;
 
 * {
   box-sizing: border-box;
@@ -63,6 +64,23 @@ footer {
   }
 }
 
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 3;
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+  .project {
+    padding: 1rem;
+    background: $project-card-background-color;
+    text-align: center;
+    margin:0.5rem;
+    border-radius: 5px;
+  }
+}
+
 @media only screen and (min-width: $breakpoint-tablet-portrait) {
   .container {
     max-width: 90%;
@@ -111,7 +129,7 @@ footer {
 
 @media only screen and (min-width: $breakpoint-desktop) {
   .container {
-    max-width: 1200px;
+    max-width: 1100px;
   }
   h1 {
     font-size: 2.5rem;
