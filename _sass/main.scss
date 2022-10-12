@@ -90,6 +90,15 @@ footer {
   }
 }
 
+#project-content {
+  text-align: center;
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 @media only screen and (min-width: $breakpoint-tablet-portrait) {
   .container {
     max-width: 90%;
