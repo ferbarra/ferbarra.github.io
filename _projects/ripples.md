@@ -1,7 +1,7 @@
 ---
 layout: project
 name: Ripples
-image: /assets/images/soltare_thumbnail.width-500.jpg
+image: /assets/images/ripples.png
 ---
 
 Fun project
