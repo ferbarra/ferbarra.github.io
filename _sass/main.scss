@@ -108,12 +108,13 @@ footer {
     margin-bottom: 2.5rem;
     width: 80%;
   }
-  .project-link {
+}
+
+.project-link {
+  color: $main-color;
+  font-size: 1.5rem;
+  &, &:hover, &:focus, &:active {
     color: $main-color;
-    font-size: 1.5rem;
-    &, &:hover, &:focus, &:active {
-      color: $main-color;
-    }
   }
 }
 
